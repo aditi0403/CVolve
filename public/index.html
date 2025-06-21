@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CVolve</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Arimo', sans-serif;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>CVolve</h1>
+    <p>A smart, minimal cover letter generator.<br>
+    Input. Generate. Preview. Download.</p>
+  </div>
+
+  <div class="form-row">
+    <form class="card info-card" id="profileCard">
+      <h2>Your Info</h2>
+      <label>Name *</label><input type="text" id="name" required />
+      <label>Phone *</label><input type="text" id="phone" required />
+      <label>Email *</label><input type="email" id="email" required />
+      <label>LinkedIn</label><input type="text" id="linkedin" />
+    </form>
+
+    <form class="card info-card" id="companyCard">
+      <h2>Company Info</h2>
+      <label>Job Title *</label><input type="text" id="jobTitle" required />
+      <label>Company Name *</label><input type="text" id="companyName" required />
+      <label>Hiring Manager</label><input type="text" id="hiringManager" />
+      <label>Job Source</label><input type="text" id="jobSource" />
+    </form>
+  </div>
+
+  <div class="button-row">
+    <button id="generateBtn" class="button" onclick="generateCoverLetter()">Generate Cover Letter</button>
+    <button id="downloadBtn" class="button" disabled>Download PDF</button>
+  </div>
+
+
+  <div id="previewContainer" style="display:none; margin-top: 40px; text-align: left;">
+    <h3>Preview</h3>
+    <div id="preview" style="width: 80%; margin: 0 auto; background: white; padding: 20px; color: #002855; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+  </div>
+
+
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
