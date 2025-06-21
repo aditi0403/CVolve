@@ -268,7 +268,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **🐛 Bug Reports**: [GitHub Issues](https://github.com/yourusername/cvolve/issues)
 - **💡 Feature Requests**: [GitHub Discussions](https://github.com/yourusername/cvolve/discussions)
-- **📧 Direct Contact**: [your.email@example.com](mailto:your.email@example.com)
+- **📧 Direct Contact**: [aditisharma040305@example.com](mailto:aditisharma040305@example.com)
 
 ---
 
